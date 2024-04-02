@@ -1,0 +1,293 @@
+{
+  "Image": [
+    {
+      "id": "1cb6",
+      "title": "Removing noise of a butterfly image",
+      "transform_type": "restore",
+      "publicId": "imaginify/oescuel4sh8kxqyaaica",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711348861/imaginify/oescuel4sh8kxqyaaica.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_restore/c_limit,w_960/f_auto/q_auto/v1/imaginify/oescuel4sh8kxqyaaica?_a=BAVAEyBy0",
+      "width": 960,
+      "height": 640,
+      "config": {
+        "restore": true
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T06:41:14.116Z",
+      "updateAt": "2024-03-25T06:41:14.116Z",
+      "newWidth": 960,
+      "newHeight": 640
+    },
+    {
+      "id": "8e41",
+      "title": "Fill a horizontal Cat image to 3:4 dimension",
+      "transform_type": "fill",
+      "publicId": "imaginify/vtgddptfe3ebdg64ydt6",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711348928/imaginify/vtgddptfe3ebdg64ydt6.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/b_gen_fill,ar_960:1280,c_pad/c_limit,w_960/f_auto/q_auto/v1/imaginify/vtgddptfe3ebdg64ydt6?_a=BAVAEyBy0",
+      "width": 960,
+      "height": 640,
+      "config": {
+        "fillBackground": true
+      },
+      "color": "",
+      "aspectRatio": "3:4",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T06:42:29.714Z",
+      "updateAt": "2024-03-25T06:42:29.714Z",
+      "newWidth": 960,
+      "newHeight": 1280
+    },
+    {
+      "id": "2f4c",
+      "title": "Remove a kid from a two people image",
+      "transform_type": "remove",
+      "publicId": "imaginify/d9tw6k0ppij8letmnonw",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711348999/imaginify/d9tw6k0ppij8letmnonw.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_remove:prompt_left-hand-side%20kid;multiple_true;remove-shadow_true/c_limit,w_966/f_auto/q_auto/v1/imaginify/d9tw6k0ppij8letmnonw?_a=BAVAEyBy0",
+      "width": 966,
+      "height": 640,
+      "config": {
+        "remove": {
+          "prompt": "left-hand-side kid",
+          "removeShadow": true,
+          "multiple": true
+        }
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "left-hand-side kid",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T06:43:38.425Z",
+      "updateAt": "2024-03-25T06:43:38.425Z",
+      "newWidth": 966,
+      "newHeight": 640
+    },
+    {
+      "id": "a253",
+      "title": "Recolor a banana to purple",
+      "transform_type": "recolor",
+      "publicId": "imaginify/lgvrj6re8ug5mtys4sbp",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711349068/imaginify/lgvrj6re8ug5mtys4sbp.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_recolor:prompt_banana;to-color_purple;multiple_true/c_limit,w_457/f_auto/q_auto/v1/imaginify/lgvrj6re8ug5mtys4sbp?_a=BAVAEyBy0",
+      "width": 457,
+      "height": 640,
+      "config": {
+        "recolor": {
+          "prompt": "banana",
+          "to": "purple",
+          "multiple": true
+        }
+      },
+      "color": "purple",
+      "aspectRatio": "",
+      "prompt": "banana",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T06:44:30.947Z",
+      "updateAt": "2024-03-25T06:44:30.947Z",
+      "newWidth": 457,
+      "newHeight": 640
+    },
+    {
+      "id": "fec3",
+      "title": "Remove the background of car",
+      "transform_type": "removeBackground",
+      "publicId": "imaginify/gojd5cstivo2kkcjqvjp",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711349103/imaginify/gojd5cstivo2kkcjqvjp.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_background_removal/c_limit,w_427/f_auto/q_auto/v1/imaginify/gojd5cstivo2kkcjqvjp?_a=BAVAEyBy0",
+      "width": 427,
+      "height": 640,
+      "config": {
+        "removeBackground": true
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T06:45:15.420Z",
+      "updateAt": "2024-03-25T06:45:15.420Z",
+      "newWidth": 427,
+      "newHeight": 640
+    },
+    {
+      "id": "99cf",
+      "title": "Remove a orange from the image",
+      "transform_type": "remove",
+      "publicId": "imaginify/szo84o18x04ynxcibijf",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711360823/imaginify/szo84o18x04ynxcibijf.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_remove:prompt_orange;multiple_true;remove-shadow_true/c_limit,w_480/f_auto/q_auto/v1/imaginify/szo84o18x04ynxcibijf?_a=BAVAEyBy0",
+      "width": 480,
+      "height": 640,
+      "config": {
+        "remove": {
+          "prompt": "orange",
+          "removeShadow": true,
+          "multiple": true
+        }
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "orange",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T10:00:35.468Z",
+      "updateAt": "2024-03-25T10:00:35.468Z",
+      "newWidth": 480,
+      "newHeight": 640
+    },
+    {
+      "id": "20f1",
+      "title": "Restore Train image",
+      "transform_type": "restore",
+      "publicId": "imaginify/kdytahhfqa7cvpec1g4f",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711360930/imaginify/kdytahhfqa7cvpec1g4f.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_restore/c_limit,w_960/f_auto/q_auto/v1/imaginify/kdytahhfqa7cvpec1g4f?_a=BAVAEyBy0",
+      "width": 960,
+      "height": 640,
+      "config": {
+        "restore": true
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T10:02:18.460Z",
+      "updateAt": "2024-03-25T10:02:18.460Z",
+      "newWidth": 960,
+      "newHeight": 640
+    },
+    {
+      "id": "2a07",
+      "title": "Restore image",
+      "transform_type": "restore",
+      "publicId": "imaginify/ee6zpk76qxwuhksumynw",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711361216/imaginify/ee6zpk76qxwuhksumynw.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_restore/c_limit,w_855/f_auto/q_auto/v1/imaginify/ee6zpk76qxwuhksumynw?_a=BAVAEyBy0",
+      "width": 855,
+      "height": 640,
+      "config": {
+        "restore": true
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-25T10:06:58.257Z",
+      "updateAt": "2024-03-25T10:06:58.257Z",
+      "newWidth": 855,
+      "newHeight": 640
+    },
+    {
+      "id": "b0a1",
+      "title": "Fill Tea to 1:1 aspect ratio",
+      "transform_type": "fill",
+      "publicId": "imaginify/fzhxs32i2kos3jtxmzsx",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711416158/imaginify/fzhxs32i2kos3jtxmzsx.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/b_gen_fill,ar_427:427,c_pad/c_limit,w_427/f_auto/q_auto/v1/imaginify/fzhxs32i2kos3jtxmzsx?_a=BAVAEyBy0",
+      "width": 427,
+      "height": 640,
+      "config": {
+        "fillBackground": true
+      },
+      "color": "",
+      "aspectRatio": "1:1",
+      "prompt": "",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-26T01:22:55.152Z",
+      "updateAt": "2024-03-26T01:22:55.152Z",
+      "newWidth": 427,
+      "newHeight": 427
+    },
+    {
+      "id": "cd0e",
+      "title": "Recolor apple to yellow",
+      "transform_type": "recolor",
+      "publicId": "imaginify/voyghzwalzmepoeuyoga",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711417565/imaginify/voyghzwalzmepoeuyoga.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_recolor:prompt_apple;to-color_yellow;multiple_true/c_limit,w_427/f_auto/q_auto/v1/imaginify/voyghzwalzmepoeuyoga?_a=BAVAEyBy0",
+      "width": 427,
+      "height": 640,
+      "config": {
+        "recolor": {
+          "prompt": "apple",
+          "to": "yellow",
+          "multiple": true
+        }
+      },
+      "color": "yellow",
+      "aspectRatio": "",
+      "prompt": "apple",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-26T01:46:32.438Z",
+      "updateAt": "2024-03-26T01:46:32.438Z",
+      "newWidth": 427,
+      "newHeight": 640
+    },
+    {
+      "id": "b5ae",
+      "title": "Remove a woman",
+      "transform_type": "remove",
+      "publicId": "imaginify/y3reldsyxohnxyyvugxx",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711417787/imaginify/y3reldsyxohnxyyvugxx.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_remove:prompt_woman;multiple_true;remove-shadow_true/c_limit,w_960/f_auto/q_auto/v1/imaginify/y3reldsyxohnxyyvugxx?_a=BAVAEyBy0",
+      "width": 960,
+      "height": 640,
+      "config": {
+        "remove": {
+          "prompt": "woman",
+          "removeShadow": true,
+          "multiple": true
+        }
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "woman",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-26T01:49:56.980Z",
+      "updateAt": "2024-03-26T01:49:56.980Z",
+      "newWidth": 960,
+      "newHeight": 640
+    },
+    {
+      "id": "c665",
+      "title": "Remove a dog",
+      "transform_type": "remove",
+      "publicId": "imaginify/nezudg3t2wb8klf9vmyc",
+      "secureURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/v1711417887/imaginify/nezudg3t2wb8klf9vmyc.jpg",
+      "transFormedURL": "https://res.cloudinary.com/ddzezwjwm/image/upload/e_gen_remove:prompt_dog;multiple_true;remove-shadow_true/c_limit,w_510/f_auto/q_auto/v1/imaginify/nezudg3t2wb8klf9vmyc?_a=BAVAEyBy0",
+      "width": 510,
+      "height": 640,
+      "config": {
+        "remove": {
+          "prompt": "dog",
+          "removeShadow": true,
+          "multiple": true
+        }
+      },
+      "color": "",
+      "aspectRatio": "",
+      "prompt": "dog",
+      "author": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "createAt": "2024-03-26T01:51:34.534Z",
+      "updateAt": "2024-03-26T01:51:34.534Z",
+      "newWidth": 510,
+      "newHeight": 640
+    }
+  ],
+  "Transaction": [],
+  "User": [
+    {
+      "id": "2dt9Cym1YC5ZsRR1yYLuCeU3Hzp",
+      "email": "laupy10598@gmail.com",
+      "username": null,
+      "firstName": "YU",
+      "lastName": "L",
+      "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJkdGQxcnhSQ1BCTHZaNW5GRlJLRTVPWHFIaSJ9",
+      "creditBalance": 20,
+      "isFreeUsed": true
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+body {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    --form-bg: rgba(108, 135, 254, 0.121);
+    --sidebar-width: 300px;
+    --main-padding: 60px;
+
+}
+
+
+.root {
+    display: flex;
+    position: relative;
+
+}
+
+
+
+.transform-box,
+.home-main,
+.display-work-main,
+.profile-main,
+.credit-main {
+
+    padding: 30px var(--main-padding);
+    position: absolute;
+    top: 0;
+    margin-left: 300px;
+    width: calc(100% - var(--sidebar-width) - var(--main-padding) - var(--main-padding));
+
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Sidebar */
+/* ====================================================================================== */
+
+
+.sidebar {
+    position: fixed;
+    background-color: rgb(249, 252, 252);
+    min-height: 100vh;
+    display: grid;
+    box-shadow: 5px 5px 10px #7f7f7f;
+    width: var(--sidebar-width);
+}
+
+
+.sidebar-logo {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+
+
+.nav-box {
+    padding: 8px;
+}
+
+
+.nav-item {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.799);
+    font-weight: 600;
+    padding: 5px 13px;
+}
+
+
+li.nav-item {
+    margin-top: 25px;
+}
+
+
+.nav-profile {
+    margin-top: 25px;
+}
+
+.user-btn {
+    display: grid;
+    place-items: center;
+}
+
+
+.curr-tab {
+    background: linear-gradient(to left, #191cf5, #cbcbfc);
+    border-radius: 20px;
+
+    & a {
+        color: rgb(239, 238, 238);
+    }
+}
+
+
+.login-btn {
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ====================================================================================== */
+/* TransformationForm */
+/* ====================================================================================== */
+
+
+
+
+.form-box {
+    display: grid;
+    background: var(--form-bg);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.form-item-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.form-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5b5b5b;
+    width: 200px;
+}
+
+
+
+.form-input,
+.ratio-box {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-color: #d6d4d4;
+    font-weight: 500;
+    padding: 2px 10px;
+    font-size: 15px;
+
+}
+
+
+.ratio-option {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.form-btn-box {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background: var(--form-bg);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.form-btn {
+    width: 45%;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 5px #979696, -2px -2px 5px #979696;
+    text-shadow: #444444 2px 2px 5px;
+
+
+    &:hover {
+        scale: 1.05;
+    }
+
+}
+
+.apply-btn {
+
+    background: rgba(250, 35, 211, 0.399);
+
+    &:hover {
+        background: linear-gradient(to right, #ff01d0, #fdaff8);
+    }
+}
+
+
+.save-btn {
+
+    background: rgba(89, 249, 142, 0.642);
+
+    &:hover {
+        background: linear-gradient(to right, #46fe03, #e6feed);
+    }
+
+}
+
+.disableBtn {
+    background-color: transparent;
+    box-shadow: 1px 1px 1px #979696, -1px -1px 2px #979696;
+    color: #c7c3c3;
+    text-shadow: none;
+
+
+    &:hover {
+        background: transparent;
+        box-shadow: 1px 1px 2px #979696, -1px -1px 2px #979696;
+        scale: 1;
+
+    }
+}
+
+
+/* ====================================================================================== */
+/* Media Uploader */
+/* ====================================================================================== */
+
+.media-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.img-box {
+    background: var(--form-bg);
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 45%;
+    min-height: 400px;
+}
+
+
+.open-upload-box {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b1b1b1, -2px -2px 5px #b1b1b1;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+
+
+    & p {
+        font-size: 15px;
+    }
+}
+
+
+
+.display-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+
+/* ====================================================================================== */
+/* HomePage*/
+/* ====================================================================================== */
+
+.func-box {
+    background: linear-gradient(to left, rgba(29, 5, 249, 0.902), #c8c0f2);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px rgb(40, 38, 38);
+
+}
+
+
+.func-item {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.func-img {
+    background-color: #fcfdfc;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.worklist {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.worklist-head {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & input {
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+
+.work-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.work-item {
+
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    background: rgba(223, 242, 250, 0.077);
+    box-shadow: 3px 3px 8px black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 600;
+
+    &:hover {
+        scale: 1.05;
+    }
+}
+
+
+.transformed-img {
+
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+/* ====================================================================================== */
+/* Transformation Page*/
+/* ====================================================================================== */
+
+
+h1 {
+    color: #011f80;
+}
+
+
+.work-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+
+.info-box {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.item-info {
+    color: #0631c1d6;
+
+    &&::after {
+        content: ":";
+    }
+}
+
+
+.item-value {
+    color: #979696;
+}
+
+
+
+.seperator {
+    margin: 20px 0 50px 0;
+    width: 100%;
+    height: 1px;
+    box-shadow: 0 1px 3px #011f80;
+    background-color: rgba(1, 31, 128, 0.256);
+    border-radius: 5px;
+}
+
+.display-work-box {
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 30px;
+    color: #5c5b5b;
+}
+
+
+
+.img-display-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.img-display-parent {
+
+    width: 500px;
+    padding: 10px;
+    background-color: var(--form-bg);
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+
+
+.display-img-item {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+
+/* ====================================================================================== */
+/* Profile Page*/
+/* ====================================================================================== */
+
+
+.profile-info-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.user-box {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background: rgba(223, 242, 250, 0.077);
+    box-shadow: 3px 3px 8px black;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.user-variable {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ====================================================================================== */
+/* Credit Page*/
+/* ====================================================================================== */
+
+
+.credit-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.plan-box {
+    width: 400px;
+    height: 800px;
+    box-shadow: 2px 2px 8px #4f85f863, -2px -2px 8px #4f85f863;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.plan-name {
+    color: rgba(11, 60, 222, 0.929);
+}
+
+.plan-price {
+    font-size: 35px;
+    font-weight: 600;
+    color: #5b5b5b;
+}
+
+.plan-credit {
+    font-size: 15px;
+    font-weight: 600;
+    color: #7f7f7f;
+}
+
+
+.credit-info {
+    text-align: center;
+}
+
+
+
+.plan-inclusion {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    font-size: large;
+    color: #4d4949;
+}
+
+
+.credit-btn {
+    background: transparent;
+    border: #011f806c 2px solid;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 15px;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+
+.buy-btn {
+    background: linear-gradient(#015eff, #80abf6);
+    color: #f3f3f3;
+}
+
+
+.free-btn {
+    background: linear-gradient(#dee9fb, #f2f6fd);
+    color: #3805efcd;
+}
+
+
+
+
+/* ====================================================================================== */
+/* Responsive*/
+/* ====================================================================================== */
+
+
+
+@media (max-width:934px) {
+
+    body {
+        --sidebar-width: 0px;
+    }
+
+    .sidebar {
+        display: none;
+        min-width: 0px;
+    }
+
+
+
+}
